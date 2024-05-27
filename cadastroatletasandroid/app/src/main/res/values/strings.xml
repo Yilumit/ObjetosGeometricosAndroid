@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">cadastro-atletas-android</string>
+    <string name="app_name">Cadastro de Atletas</string>
+    <string name="juvenil">Atleta Juvenil</string>
+    <string name="senior">Atleta Sênior</string>
+    <string name="outro">Outro Atleta</string>
+    <string name="nome">Nome</string>
+    <string name="nascimento">Data de Nascimento</string>
+    <string name="bairro">Bairro</string>
+    <string name="anos_pratica">Anos de Prática</string>
+    <string name="possui_problemas">Possui problemas cardíacos?</string>
+    <string name="academia">Por qual academia está competindo?</string>
+    <string name="recorde">Tempo recorde (segundos)</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>
