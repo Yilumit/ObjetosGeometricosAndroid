@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/circuloLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CirculoFragment">
+
+    <EditText
+        android:id="@+id/etRaioCirculo"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/raio"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCirculo" />
+
+    <TextView
+        android:id="@+id/tvCirculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:hint="@string/circulo"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAreaCirculo"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="132dp"
+        android:hint="@string/calcular_area"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/btnPerimetroCirculo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRaioCirculo" />
+
+    <Button
+        android:id="@+id/btnPerimetroCirculo"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="308dp"
+        android:hint="@string/calcular_perimetro"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRaioCirculo"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <TextView
+        android:id="@+id/tvSaidaCirculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="203dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPerimetroCirculo"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="260dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/btnAreaCirculo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etRaioCirculo">
+
+        <RadioButton
+            android:id="@+id/rbCentimetrosCirculo"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/centimetros"
+            android:textColorHint="@color/black"
+            tools:layout_editor_absoluteX="-41dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+        <RadioButton
+            android:id="@+id/rbMetrosCirculo"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/metros"
+            android:textColorHint="@color/black"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="323dp" />
+
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
