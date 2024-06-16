@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CalculoIdade</string>
+    <string name="data_nascimento">Data de Nascimento</string>
+    <string name="dia">Dia</string>
+    <string name="mes">Mês</string>
+    <string name="ano">Ano</string>
+    <string name="calc_idade">Calcular Idade</string>
+    <string name="idade">Idade :</string>
+    <string name="anos">Anos</string>
+    <string name="meses">meses</string>
+    <string name="dias">dias</string>
+</resources>

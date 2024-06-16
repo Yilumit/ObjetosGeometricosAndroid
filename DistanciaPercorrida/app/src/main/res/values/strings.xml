@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DistanciaPercorrida</string>
+    <string name="titulo">Distancia (em metros) que um automóvel percorre até o combustível acabar</string>
+    <string name="consumo_medio">Consumo médio (km/L)</string>
+    <string name="quantidade_c">Combustível disponível (L)</string>
+    <string name="distancia">Antes do combustível acabar, o automóvel percorrerá </string>
+    <string name="calcular">Calcular</string>
+</resources>

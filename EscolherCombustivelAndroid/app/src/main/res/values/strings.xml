@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EscolherCombustivelAndroid</string>
+    <string name="etanol_l">Etanol (valor/L)</string>
+    <string name="gasolina_l">Gasolina (valor/L)</string>
+    <string name="titulo">Qual combustível está compensando?</string>
+    <string name="calcular">Calcular</string>
+    <string name="gasolina">Gasolina</string>
+    <string name="etanol">Etanol</string>
+    <string name="combustivel_compensa">O combustível que compensa é</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">calcularEquacao</string>
+    <string name="var_a">Variavel A</string>
+    <string name="var_b">Variavel B</string>
+    <string name="var_c">Variavel C</string>
+    <string name="calcular">Calcular</string>
+    <string name="equacao">Equacao</string>
+    <string name="delta">Delta</string>
+    <string name="n_tem">Nao possui raiz real</string>
+    <string name="result">Resultado</string>
+</resources>

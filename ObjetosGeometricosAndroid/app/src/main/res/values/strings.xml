@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Calculos Geométricos</string>
+    <string name="circulo">Círculo</string>
+    <string name="retangulo">Retângulo</string>
+    <string name="raio">Raio</string>
+    <string name="base">Base</string>
+    <string name="Altura">Altura</string>
+    <string name="area">Área</string>
+    <string name="perimetro">Perímetro</string>
+    <string name="calcular_area">Calcular Área</string>
+    <string name="centimetros">Centímetros</string>
+    <string name="metros">Metros</string>
+    <string name="calcular_perimetro">Calcular Perímetro</string>
+    <string name="m_quadrado">m²</string>
+    <string name="c_quadrado">cm²</string>
+</resources>

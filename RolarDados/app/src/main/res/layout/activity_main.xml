@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="361dp"
+        android:layout_height="340dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="78dp"
+        app:layout_constraintBottom_toTopOf="@+id/spNumDados"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbD4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/d4"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/rbD6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/d6"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/rbD8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/d8"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/rbD10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/d10"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/rbD12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/d12"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/rbD20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/d20"
+            android:textColorHint="@color/black"
+            tools:ignore="VisualLintButtonSize" />
+
+        <RadioButton
+            android:id="@+id/rbD100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/d100"
+            android:minHeight="48dp"
+            android:textColorHint="@color/black"
+            tools:ignore="VisualLintButtonSize" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvNumDados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/titulo_dados"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/spNumDados"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <Spinner
+        android:id="@+id/spNumDados"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="44dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRolar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.216" />
+
+    <Button
+        android:id="@+id/btnRolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="190dp"
+        android:hint="@string/rolar"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spNumDados" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRolar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

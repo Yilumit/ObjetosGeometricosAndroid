@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ContaBancaria</string>
+    <string name="poupanca">Conta Poupança</string>
+    <string name="especial">Conta Especial</string>
+    <string name="qntd_invalida">Quantidade Inválida!</string>
+    <string name="nome_titular">Nome do Titular</string>
+    <string name="numero_conta">Número da Conta</string>
+    <string name="valor">Valor R$</string>
+    <string name="operacao">Qual função deseja utilizar?</string>
+    <string name="realizar_operacao">Realizar Operecao</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="sacar">Sacar</string>
+    <string name="depositar">Depositar</string>
+    <string name="dia_rendimento">Dia de Rendimento</string>
+    <string name="tipo__conta">Tipo de Conta</string>
+    <string name="saldo">Saldo R$</string>
+    <string name="limite">Limite R$</string>
+</resources>

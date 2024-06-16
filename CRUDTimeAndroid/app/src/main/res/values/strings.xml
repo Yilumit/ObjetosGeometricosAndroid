@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Manipular Dados</string>
+    <string name="time">Time</string>
+    <string name="jogador">Jogador</string>
+    <string name="inicio">Manipulador de dados</string>
+    <string name="id_jogador">ID do Jogador</string>
+    <string name="nome">Nome</string>
+    <string name="data_nasc">Data de Nascimento</string>
+    <string name="altura">Altura</string>
+    <string name="peso">Peso</string>
+    <string name="codigo_time">Código do Time</string>
+    <string name="cidade">Cidade</string>
+    <string name="buscar">Buscar</string>
+    <string name="inserir">Inserir</string>
+    <string name="modificar">Modificar</string>
+    <string name="excluir">Excluir</string>
+    <string name="listar">Listar</string>
+    <string name="codigo">Código</string>
+</resources>
